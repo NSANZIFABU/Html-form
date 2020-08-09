@@ -1,0 +1,126 @@
+body {
+  background-color: #eceef2;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+.login {
+  background-color: #0077c5;
+  color: white;
+  border-radius: 15%;
+  width: 140%;
+  height: 54px;
+  margin-right: 2%;
+  font-size: 17px;
+  font-weight: bold;
+}
+.login:hover {
+  cursor: pointer;
+}
+.header-sub-container div {
+  color: blue;
+  text-decoration: none;
+}
+.header-sub-container div a:hover {
+  cursor: pointer;
+  color: blue;
+}
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body-title {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+.title-icon {
+  display: flex;
+  flex-direction: row;
+}
+.title-icon div a {
+  text-decoration: none;
+  color: #8d9096;
+}
+.title-icon div a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #8d9096;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 500px;
+  background-color: white;
+  border-style: ridge;
+}
+.create-account {
+  text-align: center;
+}
+.policy {
+  margin-top: 5%;
+  text-align: center;
+}
+.body-footer {
+  width: 380px;
+  height: 67px;
+  background-color: #eceef2;
+  text-align: center;
+  margin-top: 5.5%;
+  border: 2px;
+  font: italic;
+  font-size: 13px;
+}
+.form {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.button {
+  width: 320px;
+  height: 45px;
+  font-size: 25px;
+  background-color: #0077c5;
+  color: white;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+.body-container div a {
+  color: blue;
+  text-decoration: none;
+}
+.body-container div a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: blue;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+.footer-header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+.footer-header div a {
+  color: black;
+  text-decoration: none;
+}
+.footer-header div a:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  text-align: center;
+}
